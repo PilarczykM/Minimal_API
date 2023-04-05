@@ -1,3 +1,0 @@
-name: tag-version
-description: 'Provides automated versioning of your commits using git tags each time your CI/CD workflow runs.'
-uses: juliansangillo/tag-version@v1.5
