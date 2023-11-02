@@ -1,6 +1,6 @@
-# MinimalAPI - Customer List CRUD Application
+# Minimal_API - Customer List CRUD Application
 
-MinimalAPI is a simple CRUD (Create, Read, Update, Delete) application for managing a list of customers.
+Minimal_API is a simple CRUD (Create, Read, Update, Delete) application for managing a list of customers.
 This application is built using .NET 8.0 with a minimal API approach, providing a lightweight and efficient way to perform basic operations on a customer list.
 Additionally, Swagger is integrated into the application, allowing you to interact with the API more conveniently.
 
@@ -16,7 +16,7 @@ Additionally, Swagger is integrated into the application, allowing you to intera
 - [License](#license)
 
 ## Features
-MinimalAPI provides the following features for managing a customer list:
+Minimal_API provides the following features for managing a customer list:
 
 - **Add Customer**: Add a new customer to the list.
 - **Get Customers**: Retrieve a list of all customers.
@@ -34,7 +34,7 @@ This application is built using the following technologies:
 ## Getting Started
 
 ### Prerequisites
-Before you can run the MinimalAPI application, make sure you have the following prerequisites installed on your system:
+Before you can run the Minimal_API application, make sure you have the following prerequisites installed on your system:
 
 - [.NET 8.0](https://dotnet.microsoft.com/download/dotnet/8.0)
 
@@ -61,7 +61,7 @@ Before you can run the MinimalAPI application, make sure you have the following 
 The application will start, and you can access it using your web browser, API client or Swagger.
 
 ## Usage
-You can use your favorite API client (e.g., Postman or cURL) or a web browser to interact with the MinimalAPI application. Below, you'll find information on the available API endpoints and their usage.
+You can use your favorite API client (e.g., Postman or cURL) or a web browser to interact with the Minimal_API application. Below, you'll find information on the available API endpoints and their usage.
 
 ## API Endpoints
 
