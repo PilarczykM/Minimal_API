@@ -1,0 +1,35 @@
+@CustomerApi_HostAddress = http://localhost:5093
+
+GET {{CustomerApi_HostAddress}}/customers
+Accept: application/json
+
+###
+
+GET {{CustomerApi_HostAddress}}/customers/00000000-0000-0000-0000-000000000000
+Accept: application/json
+
+###
+
+POST {{CustomerApi_HostAddress}}/customers
+content-type: application/json
+
+{
+    "id": "00000000-0000-0000-0000-000000000000",
+    "fullName": "Charls X"
+}
+
+###
+
+PUT  {{CustomerApi_HostAddress}}/customers/00000000-0000-0000-0000-000000000000
+content-type: application/json
+
+{
+    "id": "00000000-0000-0000-0000-000000000000",
+    "fullName": "Max Min 2"
+}
+
+
+###
+
+DELETE {{CustomerApi_HostAddress}}/customers/00000000-0000-0000-0000-000000000000
+Accept: application/json
